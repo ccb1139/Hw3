@@ -1,0 +1,77 @@
+body {
+    background-color: aquamarine;
+}
+#disc{
+    font-size: small;
+    font-style: italic;
+}
+#form {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: %;
+    border: 2px outset black;
+    display: inline-block;
+    position:relative;
+    
+}
+
+#table{
+    margin-right:auto;
+    max-width: 80%;
+    max-height: 600px;
+    display: block;
+    overflow: auto;
+    table-layout: fixed;
+}
+#table table, th, td{
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100px;  
+}
+#table th{
+    top: 0;
+    left: 0;
+    background-color: rgb(126, 126, 126);
+    position: sticky;
+    
+}
+#table td:nth-child(even){
+    background-color: rgb(16, 211, 16);
+}
+#errorMSG{
+    background-color: pink;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+
+input[type=number] {
+    padding:5px; 
+    border:2px solid #ccc; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    width: 40px;
+    display: inline;
+
+    
+}
+
+input[type=number]:focus {
+    border-color:#333;
+}
+
+input[type=submit] {
+    padding:5px 15px; 
+    background:#ccc; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
