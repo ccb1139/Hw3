@@ -1,3 +1,13 @@
+// <!--
+// File: table.js
+// GUI Assignment: hw3
+// Caleb Bergen, UMass Lowell Computer Science, wzhou@cs.uml.edu
+// Copyright (c) 2021 by Bergen. All rights reserved. May be freely copied or
+// excerpted for educational purposes with credit to the author.
+// updated by CB on October 26, 2021 at 7:23 PM
+// -->
+
+
 //Global error varible 
 var error = 0;
 var errorMSG = document.getElementById("errorMSG");
