@@ -1,13 +1,16 @@
 /* <!--
 File: stylesheet.css
 GUI Assignment: hw3
-Caleb Bergen, UMass Lowell Computer Science, wzhou@cs.uml.edu
+Caleb Bergen, UMass Lowell Computer Science, caleb_bergen@student.uml.edu
 Copyright (c) 2021 by Bergen. All rights reserved. May be freely copied or
 excerpted for educational purposes with credit to the author.
 updated by CB on October 26, 2021 at 7:23 PM
+
+This file contains all the stlying for the table and page
+
 --> */
 
-
+/* Stles the page */
 body {
     background-color: aquamarine;
 }
@@ -15,6 +18,7 @@ body {
     font-size: small;
     font-style: italic;
 }
+/* Styles the form */
 #form {
     font-family: Arial, Helvetica, sans-serif;
     text-align: right;
@@ -26,7 +30,7 @@ body {
     position:relative;
     
 }
-
+/* Styles the table */
 #table{
     margin-right:auto;
     max-width: 80%;
@@ -61,7 +65,7 @@ body {
     padding: 5px;
 }
 
-
+/* more form styling */
 input[type=number] {
     padding:5px; 
     border:2px solid #ccc; 
